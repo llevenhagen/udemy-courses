@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div id="content">
+    <h3>Youtube</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HUHC9tYz8ik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h3>Vimeo</h3>
+    <iframe src="https://player.vimeo.com/video/297519326" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="jquery.fitvids.js"></script>
+    <script>
+      // Basic FitVids Test
+      $("#content").fitVids();
+      // Custom selector and No-Double-Wrapping Prevention Test
+      $("#content").fitVids({ customSelector: "iframe[src^='http://socialcam.com']"});
+    </script>
+    </div>
+  </body>
+</html>
