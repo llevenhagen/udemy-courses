@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="Slider-support/flexslider.css">
+  <script
+  src="https://code.jquery.com/jquery-1.8.1.js"
+  integrity="sha256-e6rn3uRMD1/JU+Fd/OYCf2OSFcUOXHQlkCL0rYR/JUM="
+  crossorigin="anonymous"></script>
+  <script src="Slider-support/jquery.flexslider.js"></script>
+  <script>
+    $(window).load(function() {
+      $('.flexslider').flexslider({
+        animation: "fade",
+        controlNav: "thumbnails"
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <article>
+    <div class="flexslider">
+      <ul class="slides">
+        <li data-thumb="sliders/flowers1.jpg">
+          <img src="sliders/flowers1.jpg" />
+          <span class="flex-caption">Flowers red</span>
+        </li>
+        <li data-thumb="sliders/flowers2.jpg">
+          <img src="sliders/flowers2.jpg" />
+          <span class="flex-caption">Flowers red on blue</span>
+        </li>
+        <li data-thumb="sliders/flowers3.jpg">
+          <img src="sliders/flowers3.jpg" />
+          <span class="flex-caption">Flowers purple</span>
+        </li>
+        <li data-thumb="sliders/flowers4.jpg">
+          <img src="sliders/flowers4.jpg" />
+          <span class="flex-caption">Flowers yellow</span>
+        </li>
+      </ul>
+    </div>
+</article>
+</body>
+
+</html>
