@@ -15,52 +15,54 @@ width: 10%;
 }
 li a {
   display: block;
-  height: 60px;
-  width: 60px;
-  background-image: url("images/spritepractice.png")
+  height: 30px;
+  width: 30px;
+  background-image: url("images/spritepractice.png");
+  background-size: 120px 60px;
 }
 
-@media only screen and (max-width: 600px) {
-  li a {
-    height: 25px;
-    width: 25px;
+@media only screen and (max-width: 400px) {
+  /* li a {
+    display: block;
+    height: 30px;
+    width: 30px;
+    background-image: url("images/spritepractice.png");
     background-size: 120px 60px;
-  }
+  } */
 }
-/* COLOR GO BLACK AND WHITE ON HOVER:
+/* COLOR GO BLACK AND WHITE ON HOVER: */
 ul .linkedin a {
-  background-position: -60px 0px;
+  background-position: -30px 0px;
 }
 ul .facebook a {
-  background-position: -120px 0px;
+  background-position: -60px 0px;
 }
 ul .email a {
-  background-position: -180px 0px;
+  background-position: -90px 0px;
 }
 
 
 ul .instagram a:hover{
-  background-position: -1px -60px;
+  background-position: 0px -60px;
   opacity: .8;
 }
 ul .linkedin a:hover {
-  background-position: -61px -60px;
+  background-position: -30px -60px;
   opacity: .8;
 }
 ul .facebook a:hover {
-  background-position: -121px -60px;
+  background-position: -60px -60px;
   opacity: .8;
 }
 ul .email a:hover {
-  background-position: -181px -60px;
+  background-position: -90px -60px;
   opacity: .8;
-} */
+}
 
 /* black and white to color on hover: */
 
-ul .instagram a:hover{
-  background-position: 0px 0px;
-  opacity: .8;
+/* ul .instagram a:hover{
+  background-position: 0px 0px;z
 }
 ul .linkedin a:hover {
   background-position: -60px 0px;
@@ -70,9 +72,9 @@ ul .facebook a:hover {
 }
 ul .email a:hover {
   background-position: -180px 0px;
-}
+} */
 /* on hover:  */
-
+/*
 ul .instagram a{
   background-position: -1px -60px;
 }
@@ -84,4 +86,4 @@ ul .facebook a{
 }
 ul .email a {
   background-position: -181px -60px;
-}
+} */
